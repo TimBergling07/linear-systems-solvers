@@ -51,7 +51,7 @@ Repeat the same steps for chapter5/chapter5.cpp and chapter6/chapter6.cpp.
 
 Each program will generate output files (e.g., .csv, .png) in its respective folder.
 
-2. Generate Plots with Python
+### 2. Generate Plots with Python
 Install required Python packages:
 ```bash
 pip install numpy matplotlib pandas
