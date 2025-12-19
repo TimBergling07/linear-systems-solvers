@@ -1,0 +1,16 @@
+\begin{table}[ht]
+\centering
+\caption{Comparison of Linear System Solvers Across Test Cases}
+\label{tab:solver_comparison}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{TEST 1 Error} & \textbf{TEST 2 Error} & \textbf{Applicability} \\
+\midrule
+QR Decomposition      & 0.000000 & 0.000000 & ✅ Recommended for least squares \\
+SVD                   & 0.000000 & 0.000000 & ✅ Most robust (handles rank-deficiency) \\
+Normal Equations      & 0.000000 & \textbf{1.414214} & ❌ Avoid in ill-conditioned cases \\
+Cramer's Rule         & 0.000000 & Failed   & ⚠️ Only for $n \leq 3$, theoretical use \\
+Jacobi Iteration      & 0.000000 & Did not converge & ⚠️ Requires diagonal dominance \\
+\bottomrule
+\end{tabular}
+\end{table}
