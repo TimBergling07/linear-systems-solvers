@@ -4,7 +4,7 @@ This repository contains the source code and numerical experiments for the cours
 **"A Summary of Methods for Solving Non-Homogeneous Linear Systems"**.
 
 All core computations are implemented in **C++ using the Eigen library** (included). Python scripts are used **only for data visualization**. The code is organized by chapter to match the paper’s structure.
-
+、、、
 ## 📁 Repository Structure
 ├── chapter4/
 │   ├── chapter4.cpp                 # C++ implementation of direct methods (LU)
@@ -30,6 +30,7 @@ All core computations are implemented in **C++ using the Eigen library** (includ
 ├── eigen/                           # Full Eigen header-only library (v3.x)
 ├── LICENSE                          # MIT License
 └── README.md                        # This file
+、、、
 ## ▶️ How to Run
 
 ### 1. Compile and Run C++ Code
