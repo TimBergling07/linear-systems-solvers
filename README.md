@@ -41,8 +41,9 @@ You only need a C++ compiler (e.g., `g++`, `clang++`, or MSVC) — **no external
 g++ -O2 -I ./eigen chapter4/chapter4.cpp -o chapter4/chapter4.exe
 ./chapter4/chapter4.exe
 ```
-```bash
+
 On Linux/macOS:
+```bash
 g++ -O2 -I ./eigen chapter4/chapter4.cpp -o chapter4/chapter4
 ./chapter4/chapter4
 ```
