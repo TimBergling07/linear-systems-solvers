@@ -68,6 +68,7 @@ These scripts read data from .csv files and produce publication-ready PNG figure
 C++ Compiler: Any modern C++11-compatible compiler
 Eigen: Header-only library (already included in /eigen)
 Python: 3.6+ with numpy, matplotlib, and pandas
+
 📝 Notes
 All numerical results and figures in the paper were generated using these exact scripts.
 The eigen/ directory contains the complete Eigen library — no system installation needed.
