@@ -40,20 +40,27 @@ You only need a C++ compiler (e.g., `g++`, `clang++`, or MSVC) — **no external
 ```bash
 g++ -O2 -I ./eigen chapter4/chapter4.cpp -o chapter4/chapter4.exe
 ./chapter4/chapter4.exe
+```
+```bash
 On Linux/macOS:
 g++ -O2 -I ./eigen chapter4/chapter4.cpp -o chapter4/chapter4
 ./chapter4/chapter4
+```
 Repeat the same steps for chapter5/chapter5.cpp and chapter6/chapter6.cpp.
 
 Each program will generate output files (e.g., .csv, .png) in its respective folder.
 
 2. Generate Plots with Python
 Install required Python packages:
+```bash
 pip install numpy matplotlib pandas
+```
 Run plotting scripts:
+```bash
 python chapter4/plot_ch4.py
 python chapter5/plot_ch5.py
 python chapter6/plot_normal_eq_error_real.py
+```
 These scripts read data from .csv files and produce publication-ready PNG figures.
 
 🧰 Dependencies
